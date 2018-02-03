@@ -1,0 +1,259 @@
+
+body 		{
+				background-color:#754;
+				
+				background-repeat:no-repeat;
+				background-attachment:fixed;
+				background-position: center;
+				
+			}
+			
+			
+.contactus {	
+				width: 48.6%;
+				text-align: justify;
+				color:white;
+				float:left;
+				margin:10px;
+				border: 2px yellow;
+				padding:3px;
+			
+			}
+			
+			
+div			{
+				width: 32%;
+				height:70%;
+				text-align: justify;
+				color:white;
+				font-size:20px;
+				float:left;
+				margin:10px;
+				border: 2px yellow;
+				
+				
+			}
+			
+			
+div img 	{   
+				width:250px;
+				height:250px;
+				margin-left:15px;
+				margin-top: 10px;
+				border-width:thick;
+				border-radius:30%;
+					
+			}
+			
+			
+div table 	{
+				width:70%;
+				
+				border-width:;
+				border-color:tan;
+				border-radius:80%;
+				border-style:dashed;
+				padding:3px;
+				
+			}
+			
+			
+h1		{   
+			color: white;
+			font-size:48px;
+			font-family:Constantia, "Lucida Bright", "DejaVu Serif", "Georgia", "serif";
+			margin: 0 0 0 0px;
+			text-shadow: 2px 1px black ;
+			
+		}
+
+		
+h2		{
+			color:yellow;
+			text-shadow: 1px 2px black ;
+		}
+
+		
+h3		{
+			font-size:30px;
+			color:white;
+			text-shadow: 2px 1px black ;
+		}
+		
+		
+h4		{
+			color:   yellow;
+			text-shadow:  2px 1px black ;
+			font-size:    22px;
+			text-align:   center;
+		}
+
+
+h5		{
+			margin-top:20px;
+			margin-bottom:10px;
+			color:black;
+			font-size:20px;
+		}
+
+		
+h6		{
+			margin:0 0 0 0px ;
+			font-family:Constantia, "Lucida Bright", "DejaVu Serif", "Georgia", "serif";
+		    
+		}
+		
+		
+.headimage	{
+				width:99%;
+				height:150px;
+				border-width:thick;
+				border-color:rgba(255,255,255,1.00);
+				border-radius: ;	
+				padding:3px;
+			}
+			
+			
+.homepage	{
+				width:70%;
+				margin-top:30px;
+				margin-left:15%;
+				font-size:24px;
+				color:   white;
+				text-align: justify;
+			
+			}
+
+		
+.logo	{	
+			width:30px;
+			height:30px;
+			border-width:thick;
+			border-color:rgba(255,255,255,1.00);
+			border-radius: 90%;
+			border-style:double;
+			margin: 0 0 0 0px;
+	
+		}
+			
+
+
+			
+.noDec	{
+			text-decoration:none;
+			color:tan;
+			
+		}
+
+
+
+p.scrollMenu  {
+	
+					background-color:#345;
+					overflow:auto;
+					white-space: nowrap;
+					margin: 0 5 0 0px;
+				
+	          }
+			  
+			
+p.scrollMenu  a  {
+	
+					display: inline-block;
+					color:   white;
+					text-align: center;
+					padding:   14px;
+					text-decoration: none;
+					margin-left:15%;
+					
+					border-width:thick;
+					border-color:yellow;
+					border-radius:80%;
+					border-style:dotted;
+				
+				 }
+				
+
+p.scrollMenu a:hover	{	background-color:#777;   }
+
+p.scrollMenu a:active	{	background-color:#754;   }
+
+
+
+
+
+
+.review		{	
+				width:20%;
+				margin-top:40px;
+				margin-left:40%;
+				margin-right:40%;
+				font-size:18px;
+				color: grey;
+				text-align: justify;
+				background-color:white;
+				padding:20px;
+				border-radius:20%;
+			
+			}		
+			
+
+.stay 		{	
+				width: 80%;
+				text-align: justify;
+				color:white;
+				float:left;
+				margin-left:10%;
+				margin-right:10%;
+				border: 2px yellow;
+				padding:3px;
+				align:center;
+			
+			}
+
+.stay  img	{
+				margin-left:100px;
+}
+
+				
+
+				
+
+			
+
+				
+				
+				
+				
+.social-media-styles	{
+				padding: 20px;
+				font-size: 30px;
+				width: 50px;
+				border-radius:50%;
+				text-align: center;
+				text-decoration: none;
+				margin: 5px 2px;
+		}
+		
+		
+.social-media-styles:hover {
+    opacity: 0.7;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+							

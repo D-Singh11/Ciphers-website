@@ -1,0 +1,16 @@
+body {
+        background-color: orangered;
+        color: snow;
+        text-align: center;
+    }
+
+span {
+        border: 2px;
+        border-style: dashed;
+        border-color: snow;
+        padding : 5px;
+    }
+.div1 { width : 30%;
+        background-color: snow;
+        color: orangered;
+        text-align: center;}
