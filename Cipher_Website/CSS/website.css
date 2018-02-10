@@ -173,10 +173,12 @@ p.scrollMenu  a  {
 				
 				 }
 				
-
+p.scrollMenu a:visited {background-color:white;}
 p.scrollMenu a:hover	{	background-color:#777;   }
 
 p.scrollMenu a:active	{	background-color:#754;   }
+
+
 
 
 
