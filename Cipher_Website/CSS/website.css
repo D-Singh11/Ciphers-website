@@ -7,6 +7,8 @@ body 		{
 				background-position: center;
 				
 			}
+
+b             {color:greenyellow;}
 			
 			
 .contactus {	
@@ -22,14 +24,15 @@ body 		{
 			
 			
 div			{
-				width: 32%;
-				height:70%;
-				text-align: justify;
+				width: 35%;
+				//height:70%;
+				text-align: center;
 				color:white;
 				font-size:20px;
 				float:left;
-				margin:10px;
+				margin-left:10%;
 				border: 2px yellow;
+                border-style: dotted;
 				
 				
 			}
@@ -69,16 +72,17 @@ h1		{
 
 		
 h2		{
-			color:yellow;
+			color:greenyellow;
 			text-shadow: 1px 2px black ;
 		}
 
 		
 h3		{
 			font-size:30px;
-			color:white;
+			color:skyblue;
 			text-shadow: 2px 1px black ;
 		}
+.quiz {float:left;}
 		
 		
 h4		{
@@ -105,8 +109,10 @@ h6		{
 		
 		
 .headimage	{
-				width:99%;
-				height:150px;
+                float: right;
+                align-content: center;
+				width:40%;
+				height:100px;
 				border-width:thick;
 				border-color:rgba(255,255,255,1.00);
 				border-radius: ;	
@@ -115,10 +121,10 @@ h6		{
 			
 			
 .homepage	{
-				width:70%;
+				width:80%;
 				margin-top:30px;
-				margin-left:15%;
-				font-size:24px;
+				margin-left:10%;
+				font-size:20px;
 				color:   white;
 				text-align: justify;
 			
@@ -164,8 +170,10 @@ p.scrollMenu  a  {
 					text-align: center;
 					padding:   14px;
 					text-decoration: none;
-					margin-left:15%;
-					
+					margin-left:13%;
+                    font-size: 1.5em;
+                    font-weight: bold;
+        
 					border-width:thick;
 					border-color:yellow;
 					border-radius:80%;
@@ -258,4 +266,12 @@ p.scrollMenu a:active	{	background-color:#754;   }
   background: #bb0000;
   color: white;
 }
+
+footer  {float:right;    
+          width: 100%; 
+          margin-bottom: 10px}        
 							
+li {
+    text-align: left;
+    margin-top: 0.5em;
+}

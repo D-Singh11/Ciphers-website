@@ -1,0 +1,35 @@
+ROT13 :
+
+Substitution Encryption method: Substitution encryption method is used to replace individual plaintext letters with substitute
+encrypted letters, so that the actual meankng of the original plaintext can be hidden.
+
+ROT13 is a type of CASESER CIPHER also known as ShiftCipher  which was used in Rome for encryption. ROT13 cipher uses text replacement
+alogoritham in which each alphabet is replaced with the letter situated 13 positions ahead of it in english alphabets table.
+
+ROT13 is not a very secure way of generating secret messages because each encrypted text can be decrypted using the same algorithm.
+It can be easily breakable using brute force attack. Therefore this type of cipher is not used for highly sensitive data encryption
+It is mainly used in news forums, online blogs etc. Rot13 cipher is widley used to design fun games for kids to teach them problem solving 
+at early age.
+
+How to use ?
+
+1. Enter your desired text into the input box.
+2. Click on submit button to view encrypted text.
+3. Encrypted text will be displayed below the input box.
+4. Use Reset button to reset the form.
+ 
+To decode text encrypted using ROT13.
+1. Simply enter the text in the decoder text box.
+2. Click decode button.
+3. Decoded text (plaintext) will be displayed below the input box.
+4. Use Reset button to reset the form.
+
+
+
+for new page ONly for quiz
+Quiz : I have provided some encrypted text for you to decode.
+ 1. Try and decode the below examples using the ROT13 algoritham without using decoder tool.
+Use the decoder tool to check your answers.
+Dont forget to post your experince.
+
+Want to try hard one? click here.

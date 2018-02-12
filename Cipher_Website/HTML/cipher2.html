@@ -23,20 +23,43 @@
 		   <a href="cipher1.html" title="link to cipher 1 page">Cipher 1</a>
 		   <a href="cipher2.html" title="link to cipher 2 page">Cipher 2</a>
 		   </p>
+		   
 		</nav>
-       </header>		
+       </header>	
+       	
         <main role="main">
 		<img src="../images/Rot13.png" alt="header picture" class="headimage">
          
             <article role="article">
-			  <section>
-              
+            <section>
+                <p class="homepage">
+                    <del><b>Substitution Encryption method:</b> Substitution encryption method is used to replace individual plaintext letters with substitute encrypted letters, so that the actual meankng of the original plaintext can be hidden.<br><br>
+
+                    <b>ROT13</b> is a type of CASESER CIPHER also known as ShiftCipher  which was used in Rome for encryption. ROT13 cipher uses text replacement algoritham in which each alphabet is replaced with the letter situated 13 positions ahead of it in english alphabets table.<br><br>
+
+                    <b>ROT13</b> is not a very secure way of generating secret messages because each encrypted text can be decrypted using the same algorithm.<br><br>
+                    It can be easily breakable using brute force attack. Therefore this type of cipher is not used for highly sensitive data encryption<br><br>
+                    It is mainly used in news forums, online blogs etc. Rot13 cipher is widley used to design fun games for kids to teach them problem solving at early age.<br>
+                    </del>
+                </p>
+            </section>
+            
+			 <section>
+             <h3>How to Use Encoding / Decoding tool?</h3>
+              <div>
 			      <h2>Try it here</h2>
+			  <ol>
+			          <li>Enter your desired text into the input box.</li>
+			          <li>Click on submit button to view encrypted text.</li>
+			          <li>Encrypted text get displayed below the inut box.</li>
+			          <li>Use Reset button to reset the form.</li>
+			          
+			      </ol>
 				  <input type="text" id="input2" onfocus="this.value=''"> 
                   <button onclick="Cipher2()">Submit</button>
                   
                   <p id="result2" class="homepage">Result will be displayed here.</p>
-				
+             </div>
             </section>
 					
              

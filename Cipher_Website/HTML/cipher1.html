@@ -12,7 +12,7 @@
 	<body>
 		
 	   <header role="banner"> 
-			<h1 >  <a href="index.html" title="link to home page" class="noDec"><img src="../images/logo.jpg" alt="logo" class="logo"> Secret Communications </a></h1>
+			<h1 >  <a href="index.html" title="link to home page" class="noDec"><img src="../images/logo.jpg" alt="logo" class="logo"> Secret Communications</a></h1>
 		
 		<nav role="navigation">
            <p class="scrollMenu">
@@ -30,20 +30,58 @@
 		<img src="../images/Rot13.png" alt="header picture" class="headimage">
          
             <article role="article">
+            <section>
+                <p class="homepage">
+                    <b>Substitution Encryption method:</b> Substitution encryption method is used to replace individual plaintext letters with substitute encrypted letters, so that the actual meankng of the original plaintext can be hidden.<br><br>
+
+                    <b>ROT13</b> is a type of CASESER CIPHER also known as ShiftCipher  which was used in Rome for encryption. ROT13 cipher uses text replacement algoritham in which each alphabet is replaced with the letter situated 13 positions ahead of it in english alphabets table.<br><br>
+
+                    <b>ROT13</b> is not a very secure way of generating secret messages because each encrypted text can be decrypted using the same algorithm.<br><br>
+                    It can be easily breakable using brute force attack. Therefore this type of cipher is not used for highly sensitive data encryption<br><br>
+                    It is mainly used in news forums, online blogs etc. Rot13 cipher is widley used to design fun games for kids to teach them problem solving at early age.<br>
+                    
+                </p>
+            </section>
 			  <section>
-			  <h2>Try it here</h2>
+			  
+			  <h3>How to Use Encoding / Decoding tool?</h3>
+			  
+			  <div>
+			     <h2>Encode Text</h2>
+			      <ol>
+			          <li>Enter your desired text into the input box.</li>
+			          <li>Click on submit button to view encrypted text.</li>
+			          <li>Encrypted text get displayed below the inut box.</li>
+			          <li>Use Reset button to reset the form.</li>
+			          
+			      </ol>
+			 
+			  
+			  
 				 <input type="text" id="input11"> 
                  <button onclick="ROT13()">Submit</button>
                  <button onclick="Clear()">Clear</button>
                  <p id="result" class="homepage">Result will be displayed here.</p>
-                 
-            <h2>Decode it here</h2>
+               </div> 
+               
+               <div> 
+            <h2>Decode Text</h2>
+            <ol>
+                <li>Simply enter the text in the decoder text box.</li>
+                <li>Click decode button.</li>
+                <li>Decoded text will be displayed below the input box.</li>
+                <li>Use Reset button to reset the form.</li>
+            </ol>
 				 <input type="text" id="decode11"> 
                  <button onclick="decodeRot13()"> Decode </button>
                  <p id="resultDecode" class="homepage"> Original Text will be displayed here.</p>
+                 </div>
               </section>
 					
-             
+             <section>
+                 
+                
+             </section>
 				
              
               	
@@ -51,8 +89,11 @@
             </article>
         </main>
 		     <footer role="contentinfo">
+		     
+		     <br><br><br>
 			  <hr> 
 			  <font  size="2px" color="white">Copyright &copy; 2018 Cipher Communications, 123 Cipher Street Perth, Scotland. All Rights Reserved. </font>
+			  
 			 </footer>
     </body>
 </html>

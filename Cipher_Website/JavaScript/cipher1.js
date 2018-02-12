@@ -22,21 +22,21 @@ function ROT13()
             }
         else{
             cipheredText="";                                    // if input contain other characterrs/numbers/symbols , it show error
-            cipheredText="Please only enter alphabets between A-Z or a-z";  // error message
+            cipheredText=" Error - Please only enter alphabets between A-Z or a-z";  // error message
         }
         
     
     }
    
-    input_Element.value = "";
+   // input_Element.value = "";
      show_Output = document.getElementById("result");
-    show_Output.innerHTML= cipheredText;
+    show_Output.innerHTML =" Result : "+cipheredText;
 }
 
 
 function decodeRot13()
 {
-    var decodeText = document.getElementById("decode11").value;
+    var decodeText = document.getElementById("decode11").value.toLocaleUpperCase();
    
     var originalText = "";
     
@@ -113,5 +113,6 @@ function Cipher2()
 
 function Clear()
 {
-    this.value ="";
+   document.getElementById("input11").value ="";
+    document.getElementById("result").innerHTML="Result will be displayed here";
 }
