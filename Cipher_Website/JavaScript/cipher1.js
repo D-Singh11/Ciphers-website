@@ -1,3 +1,4 @@
+
 function ROT13() 
 {
     var input_Element = document.getElementById("input11");
@@ -20,7 +21,7 @@ function ROT13()
                 cipheredText +=  String.fromCharCode(unicode-13);
             }
         else{
-            cipheredText="";                                    // if input contain other characterrs/numbers/synbols , it show error
+            cipheredText="";                                    // if input contain other characterrs/numbers/symbols , it show error
             cipheredText="Please only enter alphabets between A-Z or a-z";  // error message
         }
         
@@ -28,13 +29,36 @@ function ROT13()
     }
    
     input_Element.value = "";
-    var show_Output = document.getElementById("result");
+     show_Output = document.getElementById("result");
     show_Output.innerHTML= cipheredText;
 }
 
 
+function decodeRot13()
+{
+    var decodeText = document.getElementById("decode11").value;
+   
+    var originalText = "";
+    
+    for(i=0; i<decodeText.length; i++)
+    {
+        var unicode = decodeText.charCodeAt(i);
+         if(unicode >=65 && unicode <=77)                    // condition to applt rot 13
+            {
+                originalText +=  String.fromCharCode(unicode+13);   //converted letter gets concatenated & stored in variable
+            }
+        else if (unicode >=78 && unicode <=90)                  // condition to implement rot13 from n-z
+            {
+                originalText +=  String.fromCharCode(unicode-13);
+            }
+    }
+    
+    document.getElementById("resultDecode").innerHTML = originalText;
+   
+}
 
-// CIpher 2 
+
+///////////////////////////////////// CIpher 2  ////////////////////////////////////////////////////////////////
 
 var previous = 0;
 function Cipher2()
@@ -82,4 +106,12 @@ function Cipher2()
     
     var output2 = document.getElementById("result2");
     output2.innerHTML = cipherText.toString();              // display result
+}
+
+
+
+
+function Clear()
+{
+    this.value ="";
 }
