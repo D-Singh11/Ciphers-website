@@ -102,17 +102,35 @@ function Cipher2()
        }
     
     
-    cipherText = cipherText.concat(key);                   // this is to give hint to decrypter to decode text
+    cipherText = cipherText;                   // this is to give hint to decrypter to decode text
     
-    var output2 = document.getElementById("result2");
+    var output2 = document.getElementById("resultC2");
     output2.innerHTML = cipherText.toString();              // display result
 }
 
 
 
 
-function Clear()
+function Clear(clear_button_id)
 {
-   document.getElementById("input11").value ="";
-    document.getElementById("result").innerHTML="Result will be displayed here";
+    
+     if(clear_button_id.toString() == "C1b1")
+     {
+       
+        document.getElementById("input11").value ="";
+
+        document.getElementById("result").innerHTML="Result will be displayed here.";
+     }
+    else if(clear_button_id.toString() == "C1b2" )
+    {
+                document.getElementById("decode11").value="";
+
+                document.getElementById("resultDecode").innerHTML = "Original Text will be displayed here.";
+    }
+     else if(clear_button_id.toString() == "C2b1" )
+    {
+                document.getElementById("input2").value="";
+
+                document.getElementById("resultC2").innerHTML = "Result will be displayed here.";
+    }
 }

@@ -5,7 +5,8 @@
 		<head>
 			 <meta charset="UTF-8">
 			 <title> Cipher 2 page </title>
-			 <link rel="stylesheet" type="text/css" href="../CSS/website.css"  >
+			 <link rel="stylesheet" type="text/css" href="../CSS/website.css" >
+			 <link rel="icon" type="image/png" href="../images/webicon.png">
 			 <script src="../JavaScript/cipher1.js"></script>
 			 
 		</head>
@@ -18,10 +19,11 @@
 		<nav role="navigation">
            <p class="scrollMenu">
 		   
-		   <a href="index.html" title="link to home/index page" >Home</a>
-		   <a href="design.html" title="link to design page">Design</a>
-		   <a href="cipher1.html" title="link to cipher 1 page">Cipher 1</a>
+		   <a href="index.html" title="link to home/index page" >Home</a>		   
+		   <a href="cipher1.html" title="link to cipher 1 page">Rot 13</a>
 		   <a href="cipher2.html" title="link to cipher 2 page">Cipher 2</a>
+		   <a href="design.html" title="link to design page">Design</a>
+		   <a href="design.html" title="link to design page">Design</a>
 		   </p>
 		   
 		</nav>
@@ -46,7 +48,7 @@
             
 			 <section>
              <h3>How to Use Encoding / Decoding tool?</h3>
-              <div>
+              <div class="cipherTool">
 			      <h2>Try it here</h2>
 			  <ol>
 			          <li>Enter your desired text into the input box.</li>
@@ -55,10 +57,11 @@
 			          <li>Use Reset button to reset the form.</li>
 			          
 			      </ol>
-				  <input type="text" id="input2" onfocus="this.value=''"> 
+				  <input type="text" id="input2" > 
                   <button onclick="Cipher2()">Submit</button>
+                  <button id="C2b1" onclick="Clear(this.id)"> Clear </button>
                   
-                  <p id="result2" class="homepage">Result will be displayed here.</p>
+                  <p id="resultC2" class="homepage">Result will be displayed here.</p>
              </div>
             </section>
 					

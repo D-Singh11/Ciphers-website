@@ -6,6 +6,7 @@
 			 <meta charset="UTF-8">
 			 <title> Cipher 1 page </title>
 			 <link rel="stylesheet" type="text/css" href="../CSS/website.css"  >
+			 <link rel="icon" type="image/png" href="../images/webicon.png">
 			  <script  src="../JavaScript/cipher1.js"></script>
 		</head>
 		
@@ -17,10 +18,11 @@
 		<nav role="navigation">
            <p class="scrollMenu">
 		   
-		   <a href="index.html" title="link to home/index page">Home</a>
-		   <a href="design.html" title="link to design page">Design</a>
-		   <a href="cipher1.html" title="link to cipher 1 page">Cipher 1</a>
+		   <a href="index.html" title="link to home/index page" >Home</a>		   
+		   <a href="cipher1.html" title="link to cipher 1 page">Rot 13</a>
 		   <a href="cipher2.html" title="link to cipher 2 page">Cipher 2</a>
+		   <a href="design.html" title="link to design page">Design</a>
+		   <a href="design.html" title="link to design page">Design</a>
 		   </p>
   
 		</nav>
@@ -44,27 +46,25 @@
             </section>
 			  <section>
 			  
-			  <h3>How to Use Encoding / Decoding tool?</h3>
+			    <h3>How to Use Encoding / Decoding tool?</h3>
 			  
-			  <div>
+			    <div class="cipherTool">
 			     <h2>Encode Text</h2>
 			      <ol>
 			          <li>Enter your desired text into the input box.</li>
 			          <li>Click on submit button to view encrypted text.</li>
-			          <li>Encrypted text get displayed below the inut box.</li>
+			          <li>Encrypted text get displayed below the input box.</li>
 			          <li>Use Reset button to reset the form.</li>
 			          
 			      </ol>
-			 
 			  
-			  
-				 <input type="text" id="input11"> 
-                 <button onclick="ROT13()">Submit</button>
-                 <button onclick="Clear()">Clear</button>
-                 <p id="result" class="homepage">Result will be displayed here.</p>
-               </div> 
+                     <input type="text" id="input11"> 
+                     <button onclick="ROT13()">Submit</button>
+                     <button id="C1b1" onclick="Clear(this.id)">Clear</button>
+                     <p id="result" class="homepage">Result will be displayed here.</p>
+                 </div> 
                
-               <div> 
+               <div class="cipherTool"> 
             <h2>Decode Text</h2>
             <ol>
                 <li>Simply enter the text in the decoder text box.</li>
@@ -74,6 +74,7 @@
             </ol>
 				 <input type="text" id="decode11"> 
                  <button onclick="decodeRot13()"> Decode </button>
+				 <button id="C1b2" onclick="Clear(this.id)"> Clear </button>
                  <p id="resultDecode" class="homepage"> Original Text will be displayed here.</p>
                  </div>
               </section>

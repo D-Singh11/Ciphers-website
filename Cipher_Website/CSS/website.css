@@ -22,6 +22,7 @@ b             {color:greenyellow;}
 			
 			}
 			
+/*
 			
 div			{
 				width: 35%;
@@ -36,7 +37,20 @@ div			{
 				
 				
 			}
+*/
 			
+
+.cipherTool {
+                width: 35%;
+				//height:70%;
+				text-align: center;
+				color:white;
+				font-size:20px;
+				float:left;
+				margin-left:10%;
+				border: 2px yellow;
+                border-style: dotted;
+            }
 			
 div img 	{   
 				width:250px;
@@ -62,7 +76,8 @@ div table 	{
 			
 			
 h1		{   
-			color: white;
+			//color: white;
+            color:#ffdb4d;
 			font-size:48px;
 			font-family:Constantia, "Lucida Bright", "DejaVu Serif", "Georgia", "serif";
 			margin: 0 0 0 0px;
@@ -103,7 +118,10 @@ h5		{
 		
 h6		{
 			margin:0 0 0 0px ;
-			font-family:Constantia, "Lucida Bright", "DejaVu Serif", "Georgia", "serif";
+			//font-family:Constantia, "Lucida Bright", "DejaVu Serif", "Georgia", "serif";
+            font-size: 12px;
+            color:white;
+            font-weight: 160;
 		    
 		}
 		
@@ -147,7 +165,8 @@ h6		{
 			
 .noDec	{
 			text-decoration:none;
-			color:tan;
+			color:#ffdb4d;
+            
 			
 		}
 
@@ -170,7 +189,7 @@ p.scrollMenu  a  {
 					text-align: center;
 					padding:   14px;
 					text-decoration: none;
-					margin-left:13%;
+					margin-left:9.5%;
                     font-size: 1.5em;
                     font-weight: bold;
         
@@ -181,10 +200,10 @@ p.scrollMenu  a  {
 				
 				 }
 				
-p.scrollMenu a:visited {background-color:white;}
-p.scrollMenu a:hover	{	background-color:#777;   }
+ a:visited {background-color:white;}
+ a:hover	{	background-color:#777;   }
 
-p.scrollMenu a:active	{	background-color:#754;   }
+ a:active	{	background-color:#754;   }
 
 
 
