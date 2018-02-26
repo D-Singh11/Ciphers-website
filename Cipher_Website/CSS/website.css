@@ -1,85 +1,65 @@
 
+
+/*********************************** HTML ELEMENTS STYLING *******************************************************/
+
+
+
+
+/* a:visited {background-color:}*/
+/* a:hover	{	background-color:#777;   }*/
+
+
+
+
+ a:active	{	background-color:#754;   }
+
+
 body 		{
-				background-color:#754;
 				
-				background-repeat:no-repeat;
 				background-attachment:fixed;
 				background-position: center;
-				
+				background-image: url(../images/background.jpg);
+                font-family:calibri,Constantia, "Lucida Bright", "DejaVu Serif", "Georgia", "serif";
+                background-size: 85%;
+              
+    
 			}
 
-b             {color:greenyellow;}
-			
-			
-.contactus {	
-				width: 48.6%;
-				text-align: justify;
-				color:white;
-				float:left;
-				margin:10px;
-				border: 2px yellow;
-				padding:3px;
-			
-			}
-			
-/*
-			
-div			{
-				width: 35%;
-				//height:70%;
-				text-align: center;
-				color:white;
-				font-size:20px;
-				float:left;
-				margin-left:10%;
-				border: 2px yellow;
-                border-style: dotted;
-				
-				
-			}
-*/
-			
 
-.cipherTool {
-                width: 35%;
-				//height:70%;
-				text-align: center;
-				color:white;
-				font-size:20px;
-				float:left;
-				margin-left:10%;
-				border: 2px yellow;
-                border-style: dotted;
+
+b             { color: #a64c4c;; font-size: 1em; text-shadow: 1px 1px black; }
+
+
+			
+		
+button     { 
+                height: 50px;
+                width: 100px;
+
+                margin-left: 10px; 
+                font-weight: bold;
             }
-			
-div img 	{   
-				width:250px;
-				height:250px;
-				margin-left:15px;
-				margin-top: 10px;
-				border-width:thick;
-				border-radius:30%;
-					
-			}
-			
-			
-div table 	{
-				width:70%;
-				
-				border-width:;
-				border-color:tan;
-				border-radius:80%;
-				border-style:dashed;
-				padding:3px;
-				
-			}
-			
-			
+
+
+
+
+footer  {
+              float:right;    
+              width: 100%; 
+              margin-top: 20px;
+              margin-bottom: 20px;
+              color: black;
+              font-size: 0.75em;
+        } 
+
+
+
+
 h1		{   
-			//color: white;
+			
             color:#ffdb4d;
 			font-size:48px;
-			font-family:Constantia, "Lucida Bright", "DejaVu Serif", "Georgia", "serif";
+			font-family:calibri,Constantia, "Lucida Bright", "DejaVu Serif", "Georgia", "serif";
 			margin: 0 0 0 0px;
 			text-shadow: 2px 1px black ;
 			
@@ -87,24 +67,32 @@ h1		{
 
 		
 h2		{
-			color:greenyellow;
-			text-shadow: 1px 2px black ;
+			color: #191919;
+			text-shadow: 1px 1px black ;
+            margin-left: 9%;
+            
 		}
 
 		
 h3		{
-			font-size:30px;
-			color:skyblue;
+			font-size:36px;
+			color:white;
 			text-shadow: 2px 1px black ;
+            margin-left: 9%;
+            text-decoration: underline;
+           
 		}
-.quiz {float:left;}
+
+
 		
 		
 h4		{
-			color:   yellow;
-			text-shadow:  2px 1px black ;
+			color:   #a64c4c;
+			text-shadow:  1px 1px black ;
 			font-size:    22px;
-			text-align:   center;
+			text-align:   left;
+            margin-left: 10%;
+            margin-bottom: 3px;
 		}
 
 
@@ -124,31 +112,147 @@ h6		{
             font-weight: 160;
 		    
 		}
-		
-		
-.headimage	{
-                float: right;
-                align-content: center;
-				width:40%;
-				height:100px;
-				border-width:thick;
-				border-color:rgba(255,255,255,1.00);
-				border-radius: ;	
-				padding:3px;
-			}
+
+
+
+
+input        { 
+                margin-top: 5px;
+                margin-bottom: 5px;
+                text-align: center;
+             }
+
+
+
+
+li     {
+                text-align: left;
+                margin-top: 0.5em;
+                color: black;
+        }
+
+
+
+textarea     {
+    
+                margin-left: 10%;
+                width: 35%;
+                height: 60px;
+                margin-bottom: 10px;
+                font-family: calibri,Constantia, "Lucida Bright", "DejaVu Serif", "Georgia", "serif";
+                resize: none;
+                overflow: hidden;
+                float: left;
+                text-align: center;
+    
+             }
+
+
+
+
+
+
+/*********************************** CLASSES STYLING *******************************************************/
+
+
+
 			
-			
-.homepage	{
-				width:80%;
-				margin-top:30px;
-				margin-left:10%;
+
+.cipherTool {
+                width: 35%;
+				//height:70%;
+				text-align: center;
+				color:white;
 				font-size:20px;
-				color:   white;
-				text-align: justify;
-			
+				float:left;
+				margin-left:10%;
+				border: 2px yellow;
+                border-style: dotted;
+            }
+
+
+.current-page  { background-color: #777; }
+
+
+
+
+ .index-to-cipher1 {   
+     
+				width:250px;
+				height:150px;
+				margin-left:11%;
+                font-size:2em;
+                
+                color: white;
+               
+                text-align: center;
+                
+				border-radius:8%;
+                background-color: #777;
+                float: left;
+                box-shadow: 3px 8px 10px grey;
+					
 			}
 
-		
+
+
+ .index-to-cipher2 	{   
+				width:250px;
+				height:150px;
+				margin-left:11%;
+                font-size:2em;
+                
+                color: white;
+                text-align: center;
+				border-radius:8%;
+                background-color: #a64c4c;
+                float: left;
+                box-shadow: 3px 8px 10px grey;;
+				
+                -
+			}
+
+
+			
+.index-to-cipher3 	{   
+    
+				width:250px;
+				height:150px;
+				margin-left:11%;
+                font-size:2em;
+                
+                color: white;
+                text-align: center;
+				border-radius:8%;
+                background-color: #7f7fff;
+                float: left;
+                box-shadow: 3px 8px 10px grey;;
+					
+			}
+
+
+
+.input-out-textarea  {
+
+                margin-left: 15%;
+                font-size: 16px;;
+                text-align: center;
+                width: 70%;
+                height: 100px;
+                margin-bottom: 10px;
+                font-family: calibri,Constantia, "Lucida Bright", "DejaVu Serif", "Georgia", "serif";
+                resize: none;
+                overflow: hidden;
+                
+    
+             }
+
+
+
+
+
+
+
 .logo	{	
 			width:30px;
 			height:30px;
@@ -159,53 +263,82 @@ h6		{
 			margin: 0 0 0 0px;
 	
 		}
-			
+
+
+.desgin-page-container{
+                width:84%;
+                height: 100%;
+                background-color: white;
+    
+            }
 
 
 			
-.noDec	{
-			text-decoration:none;
-			color:#ffdb4d;
-            
+
+
+		
+		
+.page-image	{
+                float: right;
+                align-content: center;
+				width:35%;
+                margin-right: 10%;
+				height:175px;
+				border-width:thick;
+				border-color:rgba(255,255,255,1.00);
+				border-radius: ;	
+				padding:3px;
+			}
 			
-		}
+			
+.paragraph-style	{
+				width:82%;
+                font-family:calibri,Constantia, "Lucida Bright", "DejaVu Serif", "Georgia", "serif";
+				margin-top:30px;
+				margin-left:9%;
+				font-size:20px;
+				color:   #262626;
+				text-align: justify;
+			
+			}
+
+
+		
 
 
 
-p.scrollMenu  {
+p.scroll-menu  {
 	
-					background-color:#345;
-					overflow:auto;
-					white-space: nowrap;
-					margin: 0 5 0 0px;
+					background-color:#a64c4c;
+					margin: 0 0 0 0px;
+                    height: 76px;
+                    
+                    
 				
 	          }
 			  
 			
-p.scrollMenu  a  {
+p.scroll-menu  a  {
 	
 					display: inline-block;
 					color:   white;
 					text-align: center;
+                    margin-top: 8px;
+                    text-decoration: underline;
 					padding:   14px;
-					text-decoration: none;
-					margin-left:9.5%;
+					//text-decoration: none;
+					margin-left:10.5%;
                     font-size: 1.5em;
                     font-weight: bold;
         
-					border-width:thick;
-					border-color:yellow;
-					border-radius:80%;
-					border-style:dotted;
+					border-width:thin;
+					border-color:white;
+					border-radius:5%;
+					border-style:solid;
+                
 				
 				 }
 				
- a:visited {background-color:white;}
- a:hover	{	background-color:#777;   }
-
- a:active	{	background-color:#754;   }
-
-
 
 
 
@@ -213,10 +346,10 @@ p.scrollMenu  a  {
 
 
 .review		{	
-				width:20%;
-				margin-top:40px;
-				margin-left:40%;
-				margin-right:40%;
+				width:60%;
+				margin-top:100px;
+				margin-right:20%;
+				float: right;
 				font-size:18px;
 				color: grey;
 				text-align: justify;
@@ -227,70 +360,22 @@ p.scrollMenu  a  {
 			}		
 			
 
-.stay 		{	
-				width: 80%;
-				text-align: justify;
-				color:white;
-				float:left;
-				margin-left:10%;
-				margin-right:10%;
-				border: 2px yellow;
-				padding:3px;
-				align:center;
-			
-			}
-
-.stay  img	{
-				margin-left:100px;
-}
 
 				
-
+.site-name-dec	{
+    
+                text-decoration:none;
+                color:#ffdb4d;
+                
+                }
 				
 
 			
 
 				
 				
-				
-				
-.social-media-styles	{
-				padding: 20px;
-				font-size: 30px;
-				width: 50px;
-				border-radius:50%;
-				text-align: center;
-				text-decoration: none;
-				margin: 5px 2px;
-		}
-		
-		
-.social-media-styles:hover {
-    opacity: 0.7;
-}
-
-.facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.twitter {
-  background: #55ACEE;
-  color: white;
-}
 
 
-
-.youtube {
-  background: #bb0000;
-  color: white;
-}
-
-footer  {float:right;    
-          width: 100%; 
-          margin-bottom: 10px}        
+       
 							
-li {
-    text-align: left;
-    margin-top: 0.5em;
-}
+
