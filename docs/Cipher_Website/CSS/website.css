@@ -21,7 +21,7 @@ body 		{
 				background-image: url(../images/background.jpg);
 				
                 font-family:calibri,Constantia, "Lucida Bright", "DejaVu Serif", "Georgia", "serif";
-                background-size: 100%;
+                background-size: 85%;
               
     
 			}
@@ -312,7 +312,7 @@ p.scroll-menu  {
 	
 					background-color:#a64c4c;
 					margin: 0 0 0 0px;
-                    height: 76px;
+                    height: 5%;
                     
                     
 				
@@ -324,9 +324,10 @@ p.scroll-menu  a  {
 					display: inline-block;
 					color:   white;
 					text-align: center;
-                    margin-top: 8px;
+					margin-top: 0.6%;
+					margin-bottom: 0.6%;
                     text-decoration: underline;
-					padding:   14px;
+					padding:   0.8%;
 					/* //text-decoration: none; */
 					margin-left:10.5%;
                     font-size: 1.5em;
